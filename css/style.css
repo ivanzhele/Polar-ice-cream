@@ -1,0 +1,952 @@
+@font-face {
+    font-family: 'HindMadurai-Regular';
+    src: url(fonts/HindMadurai-Regular.ttf);
+}
+@font-face {
+    font-family: 'HindMadurai-Medium';
+    src: url(fonts/HindMadurai-Medium.ttf);
+}
+@font-face {
+    font-family: 'HindMadurai-Bold';
+    src: url(fonts/HindMadurai-Bold.ttf);
+}
+@font-face {
+    font-family: 'HindMadurai-SemiBold';
+    src: url(fonts/HindMadurai-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'FredokaOne';
+    src: url(fonts/FredokaOne.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #F8EDF0;
+    font-family: Roboto-Medium;
+  
+}
+
+
+
+.navbar {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 79px;
+    width: 76%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar2 {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.Home {
+    padding-right:40px;
+}
+.Product {
+    padding-right: 40px;
+}
+.Pricing {
+    padding-right: 40px;
+}
+.Testimonials {
+    padding-right: 40px;
+}
+.ContactUs {
+    padding-right: 170px;
+    white-space: nowrap
+}
+.burger {
+    display: none
+}
+a {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 1px
+}
+
+    a:link {
+        color: grey;
+    }
+
+    a:visited {
+        color: grey;
+    }
+
+    a:hover {
+        color: #D23166;
+     }
+
+button {
+    font-family: Roboto-Medium;
+    background-color: #D23166;
+    width: 165px;
+    height: 49px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.c1 {
+    width: 100%;
+    height: 772px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.IceCream {
+    margin-top: 50px;
+}
+
+.IceCreamMobile {
+    display:none
+}
+.container1 {
+    margin-top:200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 {
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    letter-spacing: 1.4px
+}
+.text2 {
+    font-family: FredokaOne;
+    font-size: 57px;
+    margin-top: 10px;
+}
+.text3 {
+    font-family: HindMadurai-Regular;
+    font-size: 18px;
+    color: #150101;
+    margin-top: 30px;
+    color: gray;
+}
+p1 {
+    color: #D23166
+}
+.Кнопка2 {
+    margin-top: 40px;
+}
+
+
+.container2 {
+    background-color: white;
+    height: 400px;
+    width:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.square1 {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 5px 20px 10px rgba(240 240 240);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.car {
+    margin-top: 33px;
+    width: 51px;
+    height: 43px;
+}
+.square2 {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 5px 20px 10px rgba(240 240 240);
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.square3 {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 5px 20px 10px rgba(240 240 240);
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.square4 {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 5px 20px 10px rgba(240 240 240);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.square-text {
+    margin-top: 20px;
+    font-family: HindMadurai-SemiBold;
+    font-size: 20px;
+}
+.square-text2 {
+    margin-top: 10px;
+    font-family: HindMadurai-Regular;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+
+.c3 {
+    width: 100%;
+    height: 545px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.container3 {
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.IceCream2{
+    padding-left: 50px;
+}
+.IceCream2Mobile {
+    display:none
+}
+.text1C3 {
+    font-family: HindMadurai-SemiBold;
+    font-size: 44px;
+    line-height: 1;
+}
+
+.text2C3 {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+
+.container4white {
+    width: 100%;
+    height: 1750px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.OurProduct {
+    color: #150101;
+    padding-top: 150px;
+    font-family: HindMadurai-SemiBold;
+    font-size: 44px;
+}
+
+.menu {
+    padding-top: 60px;
+    width: 880px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+div2 {
+    margin-right: 10px;
+    
+}
+div3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+div4 {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+div5 {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+div6 {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+div7 {
+    margin-left: 10px;
+    
+}
+
+.line1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.green {
+    padding-right: 50px;
+}
+.greenMobile {
+    display:none
+}
+.yellow {
+    padding-left: 50px;
+}
+.yellowMobile {
+    display:none
+}
+.PruductText {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Bold {
+    font-family: HindMadurai-Bold;
+    font-size: 26px;
+    margin-top:60px;
+}
+.Bold2 {
+    font-family: HindMadurai-Bold;
+    font-size: 26px;
+    margin-top: 60px;
+    padding-left: 224px;
+}
+
+.Thin {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+}
+.Thin2 {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.Price {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.Price1 {
+    font-family: HindMadurai-Medium;
+    font-size: 26px;
+}
+.Price2 {
+    font-family: HindMadurai-Medium;
+    font-size: 20px;
+    color: dimgrey;
+    text-decoration: line-through;
+    margin-top:6px;
+    margin-left: 10px;
+
+}
+.Кнопка3 {
+    margin-top: 10px;
+}
+.Price12 {
+    font-family: HindMadurai-Medium;
+    font-size: 26px;
+    padding-left: 310px;
+}
+.Кнопка4 {
+    padding-left: 280px;
+    margin-top: 10px;
+}
+
+
+.container5 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.text1C5 {
+    font-family: HindMadurai-SemiBold;
+    font-size: 44px;
+    line-height: 1;
+}
+
+.container5Text {
+    margin-left: 138px;
+    margin-top: 40px;
+}
+
+.icon1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+}
+.icon1Text {
+    font-family: Roboto-Regular;
+    font-size: 22px;
+    padding-left: 10px;
+    letter-spacing: 0.5px
+}
+
+.Download {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.Downloadpng2 {
+    padding-left: 24px;
+}
+
+.container6 {
+    margin-top: -50px;
+    width:100%;
+    height: 565px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.question {
+    font-family: Roboto-Medium;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+input {
+    width: 270px;
+    height: 74px;
+    border: none;
+    background-color: #fafafa;
+    border-radius: 5px;
+    color: #0F0000;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    padding-left: 20px;
+    letter-spacing: 0.8px;
+}
+.btn {
+    width: 134px;
+    height: 74px;
+}
+
+.container7 {
+    height: 381px;
+    background-color: #0A0808;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo2 {
+    margin-top: 76px;
+}
+
+.C71Text {
+    color: #bfbfbf;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    margin-bottom: 26px;
+}
+
+.C71Text2 {
+    font-family: Roboto-Medium;
+    font-size:12px;
+    color: white;
+    padding-bottom: 11px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    margin-top:10px;
+}
+
+.facebook {
+    padding-right: 10px;
+}
+
+.C72 {
+    margin-top:130px;
+    margin-left:50px;
+    margin-right:100px;
+}
+
+.C72Text {
+    padding-bottom: 7px;
+}
+a2 {
+    color: #bfbfbf;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+}
+.C73 {
+    margin-top: 140px;
+    margin-right: 100px;
+}
+
+
+
+.C74Text {
+    margin-top:130px;
+    margin-bottom:16px;
+    color: white;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .text2 {
+        font-size: 44px
+    }
+}
+
+
+
+    @media screen and (max-width: 1075px) {
+        .text2 {
+            font-size: 40px
+        }
+
+        .container4white {
+            height: 1900px;
+        }
+
+        .line1 {
+            flex-wrap: wrap;
+        }
+
+        .PruductText {
+            order: 1;
+            align-items: center
+        }
+
+        .Bold2 {
+            padding-left: 0px;
+        }
+
+        .Thin2 {
+            text-align: left;
+        }
+
+        .Price12 {
+            padding-left: 0px
+        }
+
+        .Кнопка4 {
+            padding-left: 0px
+        }
+
+        .green {
+            margin-top: 60px;
+            padding-right: 0px
+        }
+
+        .yellow {
+            margin-top: 60px;
+            padding-left: 0px
+        }
+    }
+
+    @media screen and (max-width: 1068px) {
+        .c1 {
+            flex-direction: column;
+            height: 1100px;
+            align-items: center;
+        }
+
+        .text1 {
+            font-size: 18px;
+        }
+
+        .container1 {
+            margin-top: 50px;
+            height: 50px;
+            align-items: center;
+            text-align: center
+        }
+
+        .ContactUs {
+            padding-right: 50px
+        }
+
+        .Home {
+            padding-left: 20px;
+        }
+
+        .Кнопка2 {
+            margin-top: 20px;
+        }
+
+        .IceCream {
+            margin-top: 250px;
+        }
+
+        .c3 {
+            flex-direction: column;
+            height: 850px;
+            text-align: center;
+        }
+
+        .IceCream2 {
+            margin-top: -110px;
+        }
+
+        .text1C3 {
+            margin-top: 150px;
+        }
+
+        .text1C5 {
+            margin-top: 150px;
+        }
+
+        .text2C3 {
+            font-size: 18px;
+        }
+
+        .container5Text {
+            margin-left: 40px;
+        }
+    }
+
+    @media screen and (max-width: 1047px) {
+        .C73 {
+            margin-right: 20px;
+        }
+    }
+
+    @media screen and (max-width: 1021px) {
+        .container4white {
+            height: 2800px;
+        }
+    }
+
+    @media screen and (max-width: 973px) {
+        .container2 {
+            flex-direction: column;
+            height: 1000px;
+        }
+
+        .square-text2 {
+            font-size: 16px;
+        }
+
+        .square1 {
+            margin: 0;
+            margin-bottom: 35px;
+        }
+
+        .square2 {
+            margin: 0;
+            margin-bottom: 35px;
+        }
+
+        .square3 {
+            margin: 0;
+            margin-bottom: 35px;
+        }
+
+        .square4 {
+            margin: 0;
+        }
+
+        .container5 {
+            flex-wrap: wrap;
+            margin-top: -60px;
+            height: 1200px;
+        }
+
+        .container5Text {
+            margin-top: -200px;
+        }
+    }
+
+    @media screen and (max-width: 967px) {
+
+        .container7 {
+            flex-wrap: wrap;
+            height: 500px;
+        }
+
+        .C74Text {
+            margin-top: 20px;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .navbar {
+            margin-top: 100px;
+        }
+
+        .navbar2 {
+            display: none
+        }
+
+        .burger {
+            display: block;
+        }
+
+        .logo {
+            margin-left: 45%;
+        }
+
+        .Thin {
+            font-size: 18px;
+        }
+
+        .Thin2 {
+            font-size: 18px;
+        }
+    }
+
+    @media screen and (max-width: 728px) {
+        .logo {
+            margin-left: 42%
+        }
+    }
+
+    @media screen and (max-width: 668px) {
+        .container5Text {
+            margin-left: 0px;
+            align-items: center;
+        }
+
+        .icon1 {
+            margin-left: 30%
+        }
+
+        .Download {
+            margin-left: 20%
+        }
+
+        .text1C5 {
+            font-size: 28px;
+            margin-left: 18%
+        }
+
+        .text2C3 {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 655px) {
+        
+        .C72 {
+            display: none;
+        }
+
+        .C73 {
+            display: none;
+        }
+
+        .container7 {
+            flex-direction: column;
+            align-items: center
+        }
+
+        .c1 {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .c3 {
+            width: 88%;
+            margin: 0 auto;
+        }
+
+        .text2 {
+            font-size: 34px;
+        }
+
+
+        .container5Text {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .text1C5 {
+            margin-top: 0px;
+        }
+
+        .C71Text {
+            font-size: 16px;
+        }
+
+        .C71Text2 {
+            font-size: 18px;
+        }
+    }
+
+@media screen and (max-width: 579px) {
+    .navbar {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .c1{
+        height: 800px;
+    }
+    .c3 {
+        height: 800px
+    }
+   .container1 {
+       margin-top:0px;
+   }
+    .IceCreamMobile {
+        display: block;
+        padding-top:340px;
+    }
+
+    .IceCream {
+        display: none
+    }
+
+    .IceCream2Mobile {
+        display: block;
+        margin-left:20px
+    }
+    .IceCream2 {
+        display: none
+    }
+    .green{
+        display:none
+    }
+    .yellow{
+        display:none
+    }
+    .greenMobile{
+        display:block
+    }
+    .yellowMobile{
+        display:block
+    }
+    .Download{
+        margin-left: 0px;
+    }
+    .icon1 {
+        margin-left:24%
+    }
+    .PruductText {
+        margin-left:4%;
+        margin-right:4%
+    }
+    .Thin {
+        text-align:center
+    }
+    .Thin2 {
+        text-align: center
+    }
+    .container4white{
+        height:2100px;
+    }
+    .OurProduct{
+        padding-top: 60px;
+    }
+    .text1C5{
+        margin-left: 0px;
+        position:center;
+        text-align:center
+    }
+}
+@media screen and (max-width: 469px) {
+    .question {
+        font-size: 22px;
+        margin-top: 100px;
+    }
+    .container6{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 429px) {
+    .container7 {
+        height:500px
+    }
+    input{
+        width:228px;
+        height:48px;
+    }
+    .btn {
+        width: 62px;
+        height:48px;
+        font-size:12px;
+    }
+
+    .Download{
+        display:none
+    }
+   
+    .c3{
+        height: 800px;
+    }
+    .logo {
+        margin-left:36%;
+    }
+    .text2{
+        font-size: 26px;
+    }
+    .IceCream2{
+        margin-left:0px;
+    }
+    .text1C3 {
+        font-size: 34px;
+    }
+
+}
+@media screen and (max-width: 350px) {
+    .icon1 {
+        margin-left: 16%;
+    }
+    .text2 {
+        font-size: 25px
+    }
+}
